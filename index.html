@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta
+        http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'"
+    />
+    <meta 
+        http-equiv="X-Content-Security-Policy"
+        content="default-src 'self'; script-src 'self'"
+    />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+    <div class="display-container">
+        <div id="expression" class="expression-display">0</div>
+        <div id="result" class="result-display">0</div>
+    </div>
+
+    <div class="button-grid">
+        <!-- Baris tombol tambahan -->
+        <button>x²</button>  
+        <button>±</button>       
+        <button>%</button>       
+        <button>⌫</button>       
+
+        <!-- Baris angka dan operator -->
+        <button>7</button><button>8</button><button>9</button><button>÷</button>
+        <button>4</button><button>5</button><button>6</button><button>x</button>
+        <button>1</button><button>2</button><button>3</button><button>-</button>
+        <button>.</button><button>0</button><button>=</button><button>+</button>
+        
+        <!-- Clear -->
+        <button class="clear">C</button>
+    </div>
+
+    <script src="./renderer.js"></script>
+</body>
+</html>
