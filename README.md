@@ -48,5 +48,5 @@ npm start
 
 ## 📸 Preview
 <div align="center">
-  <img src="calculator.png" alt="Calculator Screenshot" width="400"/>
+  <img src="calculator.png" alt="Calculator Screenshot" width="200"/>
 </div>
