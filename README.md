@@ -1,5 +1,4 @@
-![Calculator Screenshot](calculator.png)
-*A unique desktop calculator app featuring a bold Neo Brutalism design.*
+# 🧮 Calculator ElectronJS with Neo Brutalism Design
 
 ---
 
@@ -10,25 +9,26 @@ It's designed to be both functional and visually distinctive compared to traditi
 
 ---
 
-## Features
+## 🚀 Features
 
-- Basic arithmetic operations: addition, subtraction, multiplication, division  
-- Special functions: square, percentage, toggle sign (±), backspace  
-- Clean layout using CSS Grid  
-- Interactive buttons with sharp, non-blurred shadows  
-- Runs as a desktop app on Windows, macOS, and Linux  
-
----
-
-## Technology Stack
-
-- **ElectronJS**: for cross-platform desktop app development
-- **HTML & CSS**: Neo brutalism themed UI
-- **JavaScript**: Calculator logic and UI interaction (renderer process)
+- 🖥️ Built with [ElectronJS](https://www.electronjs.org/)
+- 🎨 Designed with a **Neo Brutalism** theme using sharp shadows and bold colors
+- 🧠 Supports basic arithmetic and extended functions (square, percentage, etc.)
+- ⌨️ Responsive button layout and custom pixel-style font (`Press Start 2P`)
+- 🖼️ Custom icon and window sizing
+- 💻 Runs as a lightweight desktop app
 
 ---
 
-## Getting Started
+## 🛠️ Tech Stack
+
+- [ElectronJS](https://www.electronjs.org/)
+- HTML5 + CSS3 (no frameworks)
+- JavaScript (vanilla)
+
+---
+
+## 📦 Getting Started
 
 1. CLone this repository:
 ```bash
@@ -45,3 +45,8 @@ npm install
 ```bash
 npm start
 ```
+
+## 📸 Preview
+<div align="center">
+  <img src="calculator.png" alt="Calculator Screenshot" width="400"/>
+</div>
